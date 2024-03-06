@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: segment-backup-job
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/segment-backup-job/segment-backup-job@sha256:343f1c054f2f5001927901485f758ddef7e26cc42bc23d41c420056b074c09db
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/segment-backup-job/segment-backup-job@sha256:3d229e3cd63ca2673b9db3c595677c8b6898ff48e474d7b5c555fb19e9f858a3
         name: my-python
         ports:
         - containerPort: 8081
