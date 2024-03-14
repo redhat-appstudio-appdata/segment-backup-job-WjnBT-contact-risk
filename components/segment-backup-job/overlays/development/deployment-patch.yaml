@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: segment-backup-job
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/segment-backup-job/segment-backup-job@sha256:292074b7b6ba7bb29ad0ae1a822355d18aebbfe6a31d53b17383ef224e10b3a7
+        name: my-python
+        resources: {}
+status: {}
