@@ -12,7 +12,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/redhat-user-workloads/rhtas-tenant/segment-backup-job/segment-backup-job@sha256:ba29277de39fff4d9692ad6e39aec006094c413fc8984a048ba7fd08b976caad
+      - image: quay.io/redhat-user-workloads/rhtas-tenant/segment-backup-job/segment-backup-job@sha256:4a43c2312ce6a34c5ee3afe2e8e3fb445d199571e9100f2d6ae0e4e62bc4fe87
         name: my-python
         resources: {}
 status: {}
